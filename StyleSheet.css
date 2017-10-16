@@ -30,6 +30,8 @@
 body {
     display: flex;
     flex-direction: row-wrap;
+    padding: 8px;
+    background-color: #262626;
 }
 
 .sidebar {
