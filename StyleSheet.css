@@ -32,11 +32,12 @@ body {
     flex-direction: row-wrap;
     padding: 8px;
     background-color: #262626;
+    margin: 0px;
 }
 
 .sidebar {
     font-family: 'Open Sans', sans-serif;
-    width: 400px;
+    width: 20%;
     height: 100%;
     padding: 0px;
     background: #262626;
