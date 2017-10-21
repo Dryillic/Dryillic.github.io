@@ -38,6 +38,20 @@
         <div id="vid" class="vid">
                 <iframe width="720" height="405" src="https://www.youtube.com/embed/PEywtF6yfZg?rel=0" frameborder="0" align="middle" allowfullscreen></iframe>
         </div>
+        <br>
+        <h2 class="titles">Robot "Dog"</h2>
+        <p>
+            <img style="padding: 15px; float: right; width: 400px; height: 388px; float: right;;" 
+            src="Robot.png" alt="Robot Dog"> 
+            This was my final project for my robotics class at CSUS. I designed, built and programmed a robot capable of carringing ~50lbs
+            of equipment while following the user semi-autonomously. The design is based off of 40khz ultrasonic pulses.
+            The user would hold a ultrasonic transmitter that pointed to the robot. The robot had two ultrasonic reciever
+            circuits that would calculate the distance based off amplitude and calculate the direction based off the difference
+            in signal strengh between the two recievers. One of the drawbacks of this design was discovering how many
+            40khz noise sources there where that caused interference. The robot ran off
+            of a Parallax Propeller developement board. The dev board made it possible for multiple processes to run on its 8 cores. 
+            I was able to include proportional based encoder feedback and proportional based positioning relative to the user.
+        </p>
     </div>
 </body>
 </html>
