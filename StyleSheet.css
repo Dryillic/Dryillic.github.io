@@ -61,3 +61,10 @@ a.siderbar {
 p {
     text-align: justify;
 }
+
+p.quote {
+	text-align: justify;
+	font-family: 'Oswald', sans-serif;
+	padding: 20px;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
